@@ -1,9 +1,8 @@
-import { HomePage } from '@/components/home-page/HomePage'
 import { Metadata } from 'next'
 import React from 'react'
 
 export const metadata: Metadata = {
-  title: 'ClickSuite | Interactive Magic'
+  title: 'Get Lost'
 }
 
 export default async function Page({
@@ -12,5 +11,5 @@ export default async function Page({
   params: { slug: string; viewport: string }
   searchParams: { [key: string]: string }
 }) {
-  return <HomePage viewport={searchParams.viewport} />
+  return <div></div>
 }

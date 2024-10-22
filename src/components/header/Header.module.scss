@@ -1,0 +1,32 @@
+@import '@/styles/config';
+
+.header-wrapper {
+  width: calc(100% - 2rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.logo-wrapper {
+  height: 60px;
+  .logo {
+    height: 100%;
+    width: auto;
+  }
+}
+
+.menu-wrapper {
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: #000;
+  }
+}
+
+.menu-item {
+  a {
+    text-decoration: none;
+  }
+}
