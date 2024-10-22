@@ -1,0 +1,62 @@
+// 01. Media Query Breakpoints
+$mobile-portrait-max: 478px;
+$mobile-landscape-max: 767px;
+$tablet-max: 991px;
+$large-min: 1280px;
+$xlarge-min: 1440px;
+$xxlarge-min: 1920px;
+
+// 02. Colours
+$black: #17191a;
+$grey: #dcdcdc;
+$yellow: #ffd068;
+$CS-yellow: #ffc10c;
+$CS-orange: #ff6600;
+$CS-purple: #9190ff;
+$red: #f56d4c;
+$error--orange: #ff9525;
+$blue: #8bd1d0;
+$grey--dark: #2e3649;
+$grey--light: #e7e9eb;
+$grey--mid: #dbdbdb;
+$grey--transparent: rgba(0, 7, 18, 0.6);
+$white: #fff;
+$purple: #4b3086;
+$grey--blue: #334055;
+$grey--inactive: #c1c3d0;
+$blue--deep-primary: #113c6c;
+$blue--deep-secondary: #30659a;
+$blue--tetihi: #009fe3;
+$blue--light: #c5d7ea;
+$orange--brick: #cb665f;
+$orange--burnt: #d58458;
+$orange--brick-light: rgba(240, 206, 186, 0.5);
+$green--development: #006c31;
+$yellow--development: #e2ac00;
+$orange--development: #e86209;
+$red--development: #ab1111;
+$blue--development: #1c5982;
+
+$body-background-color: $grey--light;
+$default-font-color: $grey;
+$default-hover-color: $grey--dark;
+
+// 03. Type
+$degular: 'degular', Helvetica, Arial, sans-serif;
+// $degular-display: 'degular-display', Helvetica, Arial, sans-serif;
+$body-font-family: $degular;
+$default-font-family: $body-font-family;
+$font-family: $body-font-family;
+$heading-font-family: $degular;
+
+// 04. Grid
+$grid-columns: 12;
+$grid-gutter: 1rem;
+$container-width: 1440px;
+$container-gutter-mobile: 0.5rem;
+$container-gutter-tablet: 1.5rem;
+$container-gutter-desktop: 1.5rem;
+
+$side-gaps-desktop: 2rem;
+$side-gaps-tablet: 2rem;
+$side-gaps-mobile: $container-gutter-mobile + ($grid-gutter / 2);
